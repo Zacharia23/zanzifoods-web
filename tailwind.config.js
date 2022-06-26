@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -11,7 +13,12 @@ module.exports = {
       fontWeight: {
         normal: 400
       },
+      colors: {
+        rose: colors.rose
+      }
     },
   },
-  plugins: [],
+  plugins: [
+      require('@tailwindcss/forms')
+  ],
 }

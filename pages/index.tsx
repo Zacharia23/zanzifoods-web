@@ -1,14 +1,21 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Navigation from '../components/Navigation'
+import Hero from '../components/Hero'
+import Testimonial from '../components/Testimonial'
+import Logo from '../components/Logo'
+import CTA from "../components/CTA";
+import Footer from "../components/Footer";
 
 const Home: NextPage = () => {
   return (
-    <div className='antialiased bg-white'>
-      <Navigation/>
-    </div>
+      <>
+          <main className='antialiased'>
+              <Hero/>
+              <Testimonial/>
+              <Logo/>
+              <CTA/>
+          </main>
+          <Footer/>
+      </>
   )
 }
 
