@@ -39,7 +39,7 @@ export default function Testimonial() {
                         <div className="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden">
                             <img
                                 className='absolute inset-0 h-full w-full object-cover'
-                                src="https://images.unsplash.com/photo-1612374374234-3190c40b892d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                                src="image_cta.png"
                                 alt=''
                             />
                             <div className='absolute inset-0 h-full w-full object-cover' />
